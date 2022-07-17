@@ -1,0 +1,58 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 4px 7px;
+    justify-content: space-between;
+    background-image: linear-gradient(180deg, #dcb4c6 0, #c7a9b9 12.5%, #af9ca9 25%, #968d95 37.5%, #7d7c7d 50%, #666b65 62.5%, #545c4f 75%, #464e3b 87.5%, #3b432a 100%);
+}
+
+.card-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    width: 30%;
+    padding: 10px;
+    background-image: linear-gradient(180deg, #dcb4c6 0, #c7a9b9 12.5%, #af9ca9 25%, #968d95 37.5%, #7d7c7d 50%, #666b65 62.5%, #545c4f 75%, #464e3b 87.5%, #3b432a 100%);
+    border-radius: 20px;
+}
+
+.card-principal img {
+    width: 60%;
+    margin: 10px;
+    border-radius: 130px;
+}
+
+.caixa-input {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.input {
+    font-size: 0.9rem;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.button-submit {
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.titulo-nav {
+    padding: 20px;
+
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
